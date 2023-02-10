@@ -1,0 +1,32 @@
+Crie uma super calculadora capaz de fazer os seguintes cálculos a partir de
+dois números:
+(x) Soma;
+(x) Subtração;
+(x) Divisão;
+(x) Multiplicação;
+(x) Potência;
+(x) Raiz quadrada;
+(x) Fatorial;
+(x) Porcentagem;
+(x) Média.
+
+
+_Resultado esperado de forma textual abaixo:
+
+Primeiro Número (A): 3
+Segundo Número (B): 2
+Soma: 5
+Subtração A - B: 1
+Subtração B - A: -1
+Multiplicação: 6
+Divisão A/B: 1.50
+Divisão B/A: 0.67
+Potência de A na base B: 9
+Potência de B na base A: 8
+Raiz quadrada de A: 1.73
+Raiz quadrada de B: 1.41
+Fatorial de A: 6
+Fatorial de B: 2
+Porcentagem de A em relação a B: 67%
+Porcentagem de B em relação a A: 150%
+Média: 2.5

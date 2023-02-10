@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #3a3a3a;
+}
+
+.header_area {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  gap: 20px;
+  padding: 20px 0;
+  background-color: #3a3a3a;
+  max-width: 800px;
+}
+
+.header_area h2 {
+  color: #ffffff;
+}
+
+.header__content {
+  display: flex;
+  gap: 30px;
+  color: darkcyan;
+}
+
+.inputNumbers {
+  height: 22px;
+  border-radius: 4px;
+  border: none;
+  margin-left: 8px;
+  outline: 0;
+  padding: 2px;
+  background-color: #ffffff;
+}
+
+#calcButton {
+  padding: 8px 14px;
+  border-radius: 4px;
+  background-color: darkcyan;
+  border: none;
+  outline: none;
+  font-size: 1.1rem;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+#calcButton:hover {
+  background-color: darkblue;
+  transition: 0.3s;
+}
+
+table {
+  margin: 40px auto;
+  height: 360px;
+  width: 920px;
+  background-color: #3a3a3a;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+td {
+  position: relative;
+  border: 1px solid #d1d1d1;
+  border-radius: 2px;
+  width: 50px;
+}
+
+td p {
+  position: absolute;
+  left: 8px;
+  bottom: 4px;
+  color: #ffffff;
+  font-size: 1.4rem;
+}
+
+.table_description {
+  position: absolute;
+  top: 2px;
+  left: 6px;
+  color: darkcyan;
+  font-size: 1rem;
+}

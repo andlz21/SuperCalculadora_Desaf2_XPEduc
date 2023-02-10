@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Super Calculadora - Desafio prático</title>
+</head>
+<body>
+  <main>
+    <table>
+      <thead>
+        <div class="header_area">
+          <h2>Super Calculadora</h2>
+          <div class="header__content">
+            <div>
+              <span>Primeiro número (A)</span>
+              <input class="inputNumbers" id="input__a" type="number" />
+            </div>
+            <div>
+              <span>Segundo número (B)</span>
+              <input class="inputNumbers" id="input__b" type="number" />
+            </div>
+          </div>
+          <button id="calcButton" onclick="calcResults()">Calcular</button>
+        </div>
+      </thead>
+      <hr>
+      <tbody>
+
+        <tr>
+          <td>
+            <span class="table_description">
+            Soma</span>
+            <p id="result__sum"></p>
+          </td>
+          <td>
+            <span class="table_description">
+              Subtração A - B</span>
+            <p id="result__sub__ab"></p>
+          </td>
+          <td>
+            <span class="table_description">
+              Subtração B - A</span>
+            <p id="result__sub__ba"></p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <span class="table_description">
+              Multiplicação</span>
+            <p id="result__multiply"></p>
+          </td>          
+          <td>
+            <span class="table_description">
+              Divisão A / B</span>
+            <p id="result_div__ab"></p>
+          </td>
+          <td>
+            <span class="table_description">
+              Divisão B / A</span>
+            <p id="result_div__ba"></p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <span class="table_description">
+              Potência de A na base B</span>
+            <p id="result_potenc__ab"></p>
+          </td>
+          <td>
+            <span class="table_description">
+              Potência de B na base A</span>
+            <p id="result_potenc__ba"></p>
+          </td>
+          <td>
+            <span class="table_description">
+              Raiz quadrada de A</span>
+            <p id="result__raizquad__a"></p>
+          </td>
+        </tr>
+        <tr>
+          <td>
+            <span class="table_description">
+              Raiz quadrada de B</span>
+            <p id="result__raizquad__b"></p>
+          </td>
+          <td>
+            <span class="table_description">
+              Fatorial de A</span>
+            <p id="result__fact__a"></p>
+          </td>
+          <td>
+            <span class="table_description">
+              Fatorial de B</span>
+            <p id="result__fact__b"></p>
+          </td>
+        </tr>
+
+        <tr>
+          <td>
+            <span class="table_description">
+              Porcentagem de A em relação a B</span>
+            <p id="result__percent__ab"></p>
+          </td>
+          <td>
+            <span class="table_description">
+              Porcentagem de B em relação A</span>
+            <p id="result__percent__ba"></p>
+          </td>
+          <td>
+            <span class="table_description">
+              Média</span>
+            <p id="result__media"></p>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+  </main>
+  <script src="script.js"></script>
+</body>
+</html>
