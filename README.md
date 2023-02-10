@@ -1,6 +1,6 @@
-## Desafio de Projeto de uma Super Calculadora do programa XPEducação - Minicamp
+##  Super Calculadora do programa XPEducação - Minicamp
 
-Feito com JavaScript, apenas para aprendizado pessoal. 2023©
+Desafio de Projeto de uma super calculadora feito com HTMl, CSS e JavaScript, apenas para aprendizado pessoal. 2023©
 
 ### Preview 
 
