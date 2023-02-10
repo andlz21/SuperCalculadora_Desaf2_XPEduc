@@ -1,4 +1,8 @@
-# Preview 
+## Desafio de Projeto de uma Super Calculadora do programa XPEducação - Minicamp
+
+Feito com JavaScript, apenas para aprendizado pessoal. 2023©
+
+### Preview 
 
 - Desktop 
 
